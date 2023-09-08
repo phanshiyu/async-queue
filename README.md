@@ -1,5 +1,5 @@
 ## Usage
-```
+```typescript
 function sleep(timeInMs: number) {
   console.log("started " + timeInMs);
   return new Promise<number>((res) => {
