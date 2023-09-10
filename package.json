@@ -1,15 +1,16 @@
 {
   "name": "async-queue",
   "version": "1.0.0",
-  "description": "",
+  "description": "Aysnc queue to limit concurrent async operations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "start": "ts-node index.ts",
     "test": "jest",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
-  "author": "",
+  "author": "Phan Shi Yu",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.4",
