@@ -1,5 +1,5 @@
 {
-  "name": "async-queue",
+  "name": "@phanshiyu/async-queue",
   "version": "1.0.0",
   "description": "Aysnc queue to limit concurrent async operations",
   "main": "dist/index.js",
@@ -18,5 +18,8 @@
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
