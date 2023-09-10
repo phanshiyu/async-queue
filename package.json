@@ -1,13 +1,13 @@
 {
   "name": "@phanshiyu/async-queue",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Aysnc queue to limit concurrent async operations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "start": "ts-node index.ts",
+    "start": "ts-node src/index.ts",
     "test": "jest",
-    "build": "tsc",
+    "build": "rm -rf ./dist && tsc --project tsconfig.build.json",
     "prepublish": "npm run build"
   },
   "author": "Phan Shi Yu",
